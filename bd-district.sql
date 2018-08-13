@@ -1,146 +1,130 @@
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET NAMES utf8 */;
-/*!50503 SET NAMES utf8mb4 */;
-/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
-/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
-
-/*!40000 ALTER TABLE `directory_country_region` DISABLE KEYS */;
-INSERT IGNORE INTO `directory_country_region` (`region_id`, `country_id`, `code`, `default_name`) VALUES	
-	(485, 'BD', 'BAGERHAT', 'Bagerhat'),
-	(486, 'BD', 'BANDARBAN', 'Bandarban'),
-	(487, 'BD', 'BARGUNA', 'Barguna'),
-	(488, 'BD', 'BARISAL', 'Barisal'),
-	(489, 'BD', 'BRAHMANBARIA', 'Brahmanbaria'),
-	(490, 'BD', 'BOGRA', 'Bogra'),
-	(491, 'BD', 'BHOLA', 'Bhola'),
-	(492, 'BD', 'CHANDPUR', 'Chandpur'),
-	(493, 'BD', 'CHITTAGONG', 'Chittagong'),
-	(494, 'BD', 'CHUADANG', 'Chuadang'),
-	(495, 'BD', 'COMILLA', 'Comilla'),
-	(496, 'BD', 'COXS BAZAR', "Cox's Bazar"),
-	(497, 'BD', 'DHAKA', 'Dhaka'),
-	(498, 'BD', 'DINAJPUR', 'Dinajpur'),
-	(499, 'BD', 'FARIDPUR', 'Faridpur'),
-	(500, 'BD', 'FENI', 'Feni'),
-	(501, 'BD', 'GAIBANDHA', 'Gaibandha'),
-	(502, 'BD', 'GAZIPUR', 'Gazipur'),
-	(503, 'BD', 'GOPALGANJ', 'Gopalganj'),
-	(504, 'BD', 'HABIGANJ', 'Habiganj'),
-	(505, 'BD', 'JOYPURHAT', 'Joypurhat'),
-	(506, 'BD', 'JAMALPUR', 'Jamalpur'),
-	(507, 'BD', 'JESSORE', 'Jessore'),
-	(508, 'BD', 'JHALOKATI', 'Jhalokati'),
-	(509, 'BD', 'JHENAIDAH', 'Jhenaidah'),
-	(510, 'BD', 'KHAGRACHHARI', 'Khagracchari'),
-	(511, 'BD', 'KHULNA', 'Khulna'),
-	(512, 'BD', 'KISHORGANJ', 'Kishorganj'),
-	(513, 'BD', 'KURIGRAM', 'Kurigram'),
-	(514, 'BD', 'KUSTIA', 'Kustia'),
-	(515, 'BD', 'LAKSHMIPUR', 'Lakshmipur'),
-	(516, 'BD', 'LALMONIRHAT', 'Lalmonirhat'),
-	(517, 'BD', 'MADARIPUR', 'Madaripur'),
-	(518, 'BD', 'MAGURA', 'Magura'),
-	(519, 'BD', 'MANIKGANJ', 'Manikganj'),
-	(520, 'BD', 'MEHERPUR', 'Meherpur'),
-	(521, 'BD', 'MOULVIBAZAR', 'Moulvibazar'),
-	(522, 'BD', 'MUNSHIGANJ', 'Munshiganj'),
-	(523, 'BD', 'MYMENSINGH', 'Mymenshingh'),
-	(524, 'BD', 'NAOGAON', 'Naogaon'),
-	(525, 'BD', 'NARAYANGANJ', 'Narayanganj'),
-	(526, 'BD', 'NARSHINGDI', 'Narshingdi'),
-	(527, 'BD', 'NATOR', 'Nator'),
-	(528, 'BD', 'NAWABGANJ', 'Nawabganj'),
-	(529, 'BD', 'NETROKONA', 'Netrokona'),
-	(530, 'BD', 'NILPHAMARI', 'Nilphamari'),
-	(531, 'BD', 'NOAKHALI', 'Noakhali'),
-	(532, 'BD', 'NARAIL', 'Narail'),
-	(533, 'BD', 'PABNA', 'Pabna'),
-	(534, 'BD', 'PANCHAGARH', 'Panchagarh'),
-	(535, 'BD', 'PATUAKHALI', 'Patuakhali'),
-	(536, 'BD', 'PIROJPUR', 'Pirojpur'),
-	(537, 'BD', 'RAJBARi', 'Rajbari'),
-	(538, 'BD', 'RANGAMATI', 'Rangamati'),
-	(539, 'BD', 'RANGPUR', 'Rangpur'),
-	(540, 'BD', 'SATKHIRA', 'Shatkhira'),
-	(541, 'BD', 'SHARIATPUR', 'Shariatpur'),
-	(542, 'BD', 'SHERPUR', 'Sherpur'),
-	(543, 'BD', 'SIRAJGANJ', 'Sirajganj'),
-	(544, 'BD', 'SUNAMGANJ', 'Sunamganj'),
-	(545, 'BD', 'SYLHET', 'Sylhet'),
-	(546, 'BD', 'TANGAIL', 'Tangail'),
-	(547, 'BD', 'TAKURGAON', 'Takurgaon'),
-	(548, 'BD', 'RAJSHAHI', 'Rajshahi');
-/*!40000 ALTER TABLE `directory_country_region` ENABLE KEYS */;
-
-
-/*!40000 ALTER TABLE `directory_country_region_name` DISABLE KEYS */;
-INSERT IGNORE INTO `directory_country_region_name` (`locale`, `region_id`, `name`) VALUES
-	('bn_BD', 485, 'বাগেরহাট'),
-	('bn_BD', 486, 'বান্দরবান'),
-	('bn_BD', 487, 'বরগুনা'),
-	('bn_BD', 488, 'বরিশাল'),
-	('bn_BD', 489, 'ব্রাহ্মণবাড়ীয়া'),
-	('bn_BD', 490, 'বগুড়া'),
-	('bn_BD', 491, 'ভোলা'),
-	('bn_BD', 492, 'চাঁদপুর'),
-	('bn_BD', 493, 'চট্টগ্রাম'),
-	('bn_BD', 494, 'চুয়াডাঙ্গা'),
-	('bn_BD', 495, 'কুমিল্লা'),
-	('bn_BD', 496, 'কক্সবাজার'),
-	('bn_BD', 497, 'ঢাকা'),
-	('bn_BD', 498, 'দিনাজপুর'),
-	('bn_BD', 499, 'ফরিদপুর'),
-	('bn_BD', 500, 'ফেনী'),
-	('bn_BD', 501, 'গাইবান্ধা'),
-	('bn_BD', 502, 'গাজীপুর'),
-	('bn_BD', 503, 'গোপালগঞ্জ'),
-	('bn_BD', 504, 'হবিগঞ্জ'),
-	('bn_BD', 505, 'জয়পুরহাট'),
-	('bn_BD', 506, 'জামালপুর'),
-	('bn_BD', 507, 'যশোর'),
-	('bn_BD', 508, 'ঝালকাঠি'),
-	('bn_BD', 509, 'ঝিনাইদহ'),
-	('bn_BD', 510, 'খাগড়াছড়ি'),
-	('bn_BD', 511, 'খুলনা'),
-	('bn_BD', 512, 'কিশোরগঞ্জ'),
-	('bn_BD', 513, 'কুড়িগ্রাম'),
-	('bn_BD', 514, 'কুষ্টিয়া'),
-	('bn_BD', 515, 'লক্ষীপুর'),
-	('bn_BD', 516, 'লালমনিরহাট'),
-	('bn_BD', 517, 'মাদারীপুর'),
-	('bn_BD', 518, 'মাগুরা'),
-	('bn_BD', 519, 'মানিকগঞ্জ'),
-	('bn_BD', 520, 'মেহেরপুর'),
-	('bn_BD', 521, 'মৌলভীবাজার'),
-	('bn_BD', 522, 'মুন্সীগঞ্জ'),
-	('bn_BD', 523, 'ময়মনসিংহ'),
-	('bn_BD', 524, 'নওগাঁ'),
-	('bn_BD', 525, 'নারায়ণগঞ্জ'),
-	('bn_BD', 526, 'নরসিংদী'),
-	('bn_BD', 527, 'নাটোর'),
-	('bn_BD', 528, 'নওয়াবগঞ্জ'),
-	('bn_BD', 529, 'নেত্রকোনা'),
-	('bn_BD', 530, 'নীলফামারী'),
-	('bn_BD', 531, 'নোয়াখালী'),
-	('bn_BD', 532, 'নড়াইল'),
-	('bn_BD', 533, 'পাবনা'),
-	('bn_BD', 534, 'পঞ্চগড়'),
-	('bn_BD', 535, 'পটুয়াখালী'),
-	('bn_BD', 536, 'পিরোজপুর'),
-	('bn_BD', 537, 'রাজবাড়ী'),
-	('bn_BD', 538, 'রাঙ্গামাটি'),
-	('bn_BD', 539, 'রংপুর'),
-	('bn_BD', 540, 'সাতক্ষিরা'),
-	('bn_BD', 541, 'শরীয়তপুর'),
-	('bn_BD', 542, 'শেরপুর'),
-	('bn_BD', 543, 'সিরাজগঞ্জ'),
-	('bn_BD', 544, 'সুনামগঞ্জ'),
-	('bn_BD', 545, 'সিলেট'),
-	('bn_BD', 546, 'টাঙ্গাইল'),
-	('bn_BD', 547, 'ঠাকুরগাঁ'),
-	('bn_BD', 548, 'রাজশাহী');
-/*!40000 ALTER TABLE `directory_country_region_name` ENABLE KEYS */;
-
-/*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
-/*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+START TRANSACTION;
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'BAGERHAT', 'Bagerhat');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'বাগেরহাট');
+INSERT IGNORE INTO directory_country_region(country_id, code, default_name) VALUES('BD', 'BANDARBAN', 'Bandarban');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'বান্দরবান');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'BARGUNA', 'Barguna');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'বরগুনা');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'BARISAL', 'Barisal');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'বরিশাল');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'BRAHMANBARIA', 'Brahmanbaria');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'ব্রাহ্মণবাড়ীয়া');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'BOGRA', 'Bogra');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'বগুড়া');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'BHOLA', 'Bhola');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'ভোলা');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'CHANDPUR', 'Chandpur');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'চাঁদপুর');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'CHITTAGONG', 'Chittagong');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'চট্টগ্রাম');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'CHUADANG', 'Chuadang');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'চুয়াডাঙ্গা');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'COMILLA', 'Comilla');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'কুমিল্লা');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'COXS BAZAR', "Cox's Bazar");
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'কক্সবাজার');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'DHAKA', 'Dhaka');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'ঢাকা');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'DINAJPUR', 'Dinajpur');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'দিনাজপুর');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'FARIDPUR', 'Faridpur');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'ফরিদপুর');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'FENI', 'Feni');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'ফেনী');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'GAIBANDHA', 'Gaibandha');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'গাইবান্ধা');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'GAZIPUR', 'Gazipur');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'গাজীপুর');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'GOPALGANJ', 'Gopalganj');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'গোপালগঞ্জ');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'HABIGANJ', 'Habiganj');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'হবিগঞ্জ');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'JOYPURHAT', 'Joypurhat');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'জয়পুরহাট');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'JAMALPUR', 'Jamalpur');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'জামালপুর');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'JESSORE', 'Jessore');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'যশোর');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'JHALOKATI', 'Jhalokati');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'ঝালকাঠি');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'JHENAIDAH', 'Jhenaidah');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'ঝিনাইদহ');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'KHAGRACHHARI', 'Khagracchari');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'খাগড়াছড়ি');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'KHULNA', 'Khulna');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'খুলনা');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'KISHORGANJ', 'Kishorganj');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'কিশোরগঞ্জ');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'KURIGRAM', 'Kurigram');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'কুড়িগ্রাম');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'KUSTIA', 'Kustia');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'কুষ্টিয়া');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'LAKSHMIPUR', 'Lakshmipur');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'লক্ষীপুর');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'LALMONIRHAT', 'Lalmonirhat');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'লালমনিরহাট');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'MADARIPUR', 'Madaripur');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'মাদারীপুর');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'MAGURA', 'Magura');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'মাগুরা');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'MANIKGANJ', 'Manikganj');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'মানিকগঞ্জ');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'MEHERPUR', 'Meherpur');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'মেহেরপুর');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'MOULVIBAZAR', 'Moulvibazar');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'মৌলভীবাজার');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'MUNSHIGANJ', 'Munshiganj');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'মুন্সীগঞ্জ');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'MYMENSINGH', 'Mymenshingh');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'ময়মনসিংহ');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'NAOGAON', 'Naogaon');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'নওগাঁ');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'NARAYANGANJ', 'Narayanganj');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'নারায়ণগঞ্জ');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'NARSHINGDI', 'Narshingdi');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'নরসিংদী');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'NATOR', 'Nator');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'নাটোর');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'NAWABGANJ', 'Nawabganj');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'নওয়াবগঞ্জ');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'NETROKONA', 'Netrokona');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'নেত্রকোনা');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'NILPHAMARI', 'Nilphamari');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'নীলফামারী');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'NOAKHALI', 'Noakhali');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'নোয়াখালী');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'NARAIL', 'Narail');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'নড়াইল');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'PABNA', 'Pabna');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'পাবনা');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'PANCHAGARH', 'Panchagarh');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'পঞ্চগড়');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'PATUAKHALI', 'Patuakhali');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'পটুয়াখালী');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'PIROJPUR', 'Pirojpur');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'পিরোজপুর');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'RAJBARi', 'Rajbari');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'রাজবাড়ী');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'RANGAMATI', 'Rangamati');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'রাঙ্গামাটি');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'RANGPUR', 'Rangpur');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'রংপুর');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'SATKHIRA', 'Shatkhira');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'সাতক্ষিরা');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'SHARIATPUR', 'Shariatpur');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'শরীয়তপুর');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'SHERPUR', 'Sherpur');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'শেরপুর');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'SIRAJGANJ', 'Sirajganj');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'সিরাজগঞ্জ');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'SUNAMGANJ', 'Sunamganj');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'সুনামগঞ্জ');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'SYLHET', 'Sylhet');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'সিলেট');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'TANGAIL', 'Tangail');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'টাঙ্গাইল');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'TAKURGAON', 'Takurgaon');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'ঠাকুরগাঁ');
+INSERT IGNORE INTO directory_country_region (country_id, code, default_name) VALUES('BD', 'RAJSHAHI', 'Rajshahi');
+INSERT IGNORE INTO directory_country_region_name (`locale`, `region_id`, `name`) VALUES	('bn_BD', LAST_INSERT_ID(), 'রাজশাহী');	
+COMMIT;
